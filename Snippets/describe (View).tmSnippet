@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>require File.join(File.dirname(__FILE__), '../../spec_helper')
+
+describe "${1:view}" do
+  $0
+end</string>
+	<key>name</key>
+	<string>describe (View)</string>
+	<key>scope</key>
+	<string>source.ruby.rspec</string>
+	<key>tabTrigger</key>
+	<string>desv</string>
+	<key>uuid</key>
+	<string>FE92A33D-9AE4-4925-AE1F-CC07365411B5</string>
+</dict>
+</plist>
